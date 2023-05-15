@@ -1,20 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <title>PhotoShare</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@700&display=swap" rel="stylesheet">
     <style>
-        h1 {
-            color: azure;
-        }
-        body {
-            background-color: black;
-        }
+        @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@700&display=swap');
     </style>
-    <h1>Hello</h1>
+
+</head>
+
+<body id="idbody">
+    <div class="dockBelow">
+        <div class="menubtn" onclick="myFunction(this)">
+            <div class="div1"></div>
+            <div class="div2"></div>
+            <div class="div3"></div>
+        </div>
+        <a href="" class="logo">
+            <h1>PhotoShare</h1>
+        </a>
+    </div>
+    <a class="login"
+        href="file:///C:/Users/vvvya/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/PhotoShare-On.netlify.app/Profile/profile.html">Sing
+        in or sing up</a>
+    <aside class="sidebar" id="sidebar">
+        <a href="C:\Users\vvvya\OneDrive\Рабочий стол\PhotoShare-On.netlify.app\Profile\profile.html"
+            class="sideItem"><img src="./img/user.png" alt="" height="50px"> Profile</a>
+        <br>
+        <a href="./QR Code/qrcode.html" class="sideItem"><img src="./img/qr-code.png" alt="" height="50px"> QR Code</a>
+        <br>
+        <a href="" class="sideItem"><img src="./img/settings.png" alt="" height="50px"> Settings</a>
+        <br>
+        <a href="https://yaroslavluniov.netlify.app/" class="sideItem"><img src="./img/info.png" alt="" height="50px">
+            About</a>
+    </aside>
+    <button id="postbtn" type="submit" class="postclass">Post</button>
+    <script src="./JavaScript/script.js"></script>
 </body>
 </html>

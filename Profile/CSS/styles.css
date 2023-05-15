@@ -1,0 +1,15 @@
+html {
+    font-family: 'Inter Tight', sans-serif;
+}
+
+
+.nomp {
+    margin: 0;
+    padding: 0;
+}
+
+.dockBelow {
+    background-color: #16009B;
+    margin: 0;
+    padding: 0;
+}

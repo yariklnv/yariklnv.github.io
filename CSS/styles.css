@@ -1,0 +1,77 @@
+html {font-family: 'Inter Tight', sans-serif;}
+
+body {background-color: rgb(224, 251, 255);}
+
+.nomp {margin: 0;padding: 0;}
+
+
+.dockBelow {
+    background-image: linear-gradient(rgb(131, 198, 252), rgb(119, 225, 230));
+    position: fixed;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.postclass {
+    background-color: rgb(50, 207, 215);
+    border-color: #fff;
+    color: #fff;
+    height: 40px;
+    width: 60px;
+    margin-top: 120px;
+    border-radius: 30px;
+}
+
+.menubtn {height: 100px;width: 100px;}
+
+.div1, .div2, .div3 {
+    background-color: #000;
+    height: 20px;
+    width: 90px;
+    margin: 10px 10px 10px 10px;
+    transition: 0.4s;
+}
+
+.logo {
+    text-decoration-line: none;
+    color: #000;
+    font-size: 40px;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+h1 {margin: 5px 0 5px 0;}
+
+.change .div1 {transform: translate(0, 30px) rotate(-45deg);}
+  
+.change .div2 {opacity: 0;}
+  
+.change .div3 {transform: translate(0, -30px) rotate(45deg);}
+
+.login {margin: 200px 0;}
+
+.sidebar {
+    background-image: linear-gradient(rgb(131, 198, 252), rgb(119, 225, 230));
+    width: 300px;
+    margin: -40px 0 0 0;
+    overflow: hidden;
+    position: fixed;
+    height: 0px;
+    border-radius: 20px;
+    transition: 0.4s;
+    z-index: 1;
+}
+
+
+.sideItem {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-decoration-line: none;
+}
